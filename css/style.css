@@ -1,0 +1,48 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.navbar{
+    background-color: aliceblue
+    padding: 1% 0;
+    font-size:1.2em;
+}
+.navbar-brand{
+    min-height:60px;
+    padding:0 15px 5px;
+    
+}
+
+#home{
+    background:url("../images/e-learning.png") no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+    background-size: cover;
+}
+.landing-text{
+    display: :table-cell;
+    text-align:center;
+    vertical-align:middle;
+
+}
+.landing-text h1{
+   font-size: 500%;
+   font-weight:700%; 
+}
+.padding{
+   padding: 80px 0;
+
+}
+.padding img{
+    width:100%;
+}
+#fixed{
+    display:table;
+    background:url("../images/téléchargement.jpg") no-repeat center center fixed;
+    height:60%;
+    position:relative;
+    width:100%
+}
